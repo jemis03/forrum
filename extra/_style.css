@@ -1,0 +1,180 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.bg-dark1 {
+  background-color: #35363a!important;
+}
+.co{
+    color:#ffffff;
+  }
+body{
+  /* background-color: #ff0000; */
+  background-image: url(../img/back3.jpg);
+  background-position: top;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+.body-height{
+  min-height: 80vh;
+  /* background-color: #ff0000; */
+
+}
+.text-color{
+  color: white;
+}
+.navbar a img{
+    height: 42px;
+    width: 88px;
+    border-radius: 9px;
+}
+#box-shadow{
+  box-shadow: none;
+}
+
+.btn-shadow:hover{
+  box-shadow: none;
+  border-bottom: 4px solid wheat;
+}
+
+#feedbackn-modal-body{
+  height: 5rem;
+  overflow: hidden;
+}
+
+.feedbacky-modal-body{
+  height: 14rem;
+  overflow: hidden;
+  margin-left: 112px;
+}
+
+#feedbacky-modal-body{
+  height: 14rem;
+}
+
+#login-modal-body{
+  height: 286px;
+}
+
+#edit-modal-body{
+  height: 286px;
+}
+
+.eye-size{
+  padding: 0.6rem 0.75rem;
+}
+
+#logout-modal-body{
+  height: 58px;
+  overflow: hidden;
+}
+
+.popupheader{
+  background-color: black;
+  color: white;
+}
+
+.modal-body{
+  height: 350px;
+  overflow: hidden;
+}
+
+.modal-body:hover{
+  overflow-y: auto;
+}
+
+.mgender{
+  margin: 6px 0px;
+}
+
+.fade{
+  opacity: 1;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+
+.form-rating{
+  margin-bottom: 0rem;
+  padding: 1rem 2.2rem;
+  font-size: 1.5rem;
+
+}
+
+.info-rating{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-right: 5rem;
+}
+
+.star-padding{
+  padding: 0.5rem;
+}
+
+.rating-padding{
+  padding: 0rem 2.2rem;
+}
+
+.cardbox{
+    width: 63%;
+    margin: 0px auto;
+
+}
+
+.cardbox h2{
+  color: white;
+}
+
+@media (max-width: 576px){
+  .cardbox{
+    width: 80%;
+    margin: 0px auto;
+
+  }
+
+  .btns{
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 576px){
+  .jumbotron {
+    padding: 3rem 2rem;
+    border-radius: .3rem;
+
+  }
+}
+
+
+@media (min-width: 576px){
+  .extrajumbotron {
+    padding: 3rem 3rem;
+    border-radius: .3rem;
+
+  }
+}
+
+.background{
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
+
+.fluid_radious{
+  border-radius: .3rem;
+
+}
+
+.quary{
+  padding: 30px;
+}
+
+.fontsize{
+  font-size: 3.0rem;
+}
+
+.threadlistbuttons{
+  justify-content: end;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px;
+}

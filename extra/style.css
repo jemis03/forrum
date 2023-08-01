@@ -1,0 +1,159 @@
+.background{
+    background: white;
+    /* color: white; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(/forrum/img/contact_1.jpg);
+    background-size: cover;
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+    color: #fff;
+}
+.contact .content h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+}
+
+.containerc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.containerc .contactinfo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerc .contactinfo .box{
+    position: relative;
+    padding: 20px 0px;
+    display: flex;
+}
+
+.containerc .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.containerc .contactinfo .box .text{
+    display: flex;
+    margin-left: 12px;
+    flex-direction: column;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.containerc .contactinfo .box .text h4{
+    font-weight: 600;
+    color: black;
+}
+
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+
+}
+
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 600;
+}
+
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 16px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactform .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0px;
+    font-size: 16px;
+    margin: 10px 0px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactform .inputbox .sendf{
+    width: 100px;
+    background: rgb(7, 177, 7);
+    columns: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
+    .containerc{
+        flex-direction: column;
+    }
+    .containerc .contactinfo{
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .containerc .contactform{
+        width: 100%;
+    }
+}
